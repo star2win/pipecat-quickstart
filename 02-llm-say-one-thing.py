@@ -44,7 +44,7 @@ async def run_bot(webrtc_connection: SmallWebRTCConnection, _: argparse.Namespac
     messages = [
         {
             "role": "system",
-            "content": "You are an LLM in a WebRTC session, and this is a 'hello world' demo. Say hello to the world.",
+            "content": "You are an LLM in a WebRTC session, and this is a 'hello world' demo. Say hello to the world and how glad you are for another beautiful day.",
         }
     ]
 
